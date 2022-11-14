@@ -2,7 +2,7 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
-var now = dayjs()
+
 
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
@@ -15,7 +15,7 @@ $(function () {
   $('.saveBtn').on('click', function () {
 
   });
-  
+
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour. HINTS: How can the id
   // attribute of each time-block be used to conditionally add or remove the
@@ -27,4 +27,10 @@ $(function () {
   // attribute of each time-block be used to do this?
   //
   // TODO: Add code to display the current date in the header of the page.
+
+  var now = dayjs().format("dddd, MMMM D, YYYY");
+  var x = document.getElementById("header");
+
+  $("#currentDay").text(now);
+
 });
