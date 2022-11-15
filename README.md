@@ -8,11 +8,11 @@ This repository links to a scheduler in which each hour of your workday has a te
 
 Here is an example of the scheduler with data input and boxes color coded by past, present, and future time. 
 
-![scheduler screenshot](assets/images/scheduler-1.png)
+![scheduler screenshot](Assets/images/scheduler-1.png)
 
 Along with a screenshot of the local storage reflecting the input data. 
 
-![local-storage screenshot](assets/images/local-storage-1.png)
+![local-storage screenshot](Assets/images/local-storage-1.png)
 
 ## Credits
 
